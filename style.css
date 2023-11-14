@@ -1,13 +1,15 @@
 body{
     font-family: Roboto ,sans-serif;
     background-color: #1f2937;
+    padding: 15px 80px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    margin-bottom: 20vh;
+    
     /* border: solid red; */
     /* height: 8vh; */
 }
@@ -16,15 +18,64 @@ header {
     color: #f9faf8;
     font-size: 1.4rem;
     font-weight: 800;
-    padding-left: 24px;
+    /* padding-left: 24px; */
 }
 
 nav{
     display: flex;
     gap: 30px;
-    padding-right: 24px;
+    /* padding-right: 24px; */
 }
+
 a{
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.hero{
+    
+    display: flex;
+    gap: 20px;
+    height: 60vh;
+    /* justify-content: center; */
+}
+
+.hero_left{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main_text{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.secondary_text{
+    color: #a4a8ae;
+    font-size: 1rem;
+}
+
+button{
+    max-width: 6rem;
+    padding: 8px;
+    color: #e5e7eb;
+    font-weight: bold;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 6px;
+}
+
+.hero_image{
+    width: 50vw;
+    /* background-color: #e5e7eb; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+img{
+    width: 100%;
 }
