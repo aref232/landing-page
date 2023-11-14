@@ -148,7 +148,7 @@ p{
 section.quote{
     background-color: #e5e7eb;
     min-height: 30vh;
-    padding: 5em 8em;
+    padding: 5em 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,14 +156,18 @@ section.quote{
 }
 
 .quote_text{
-    font-style: italic;
-    font-size: 1.75rem;
-    font-weight: lighter;
     color: #1f2937;
+    align-self: center;
+    max-width: 45ch;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: lighter;
 }
 
 .author{
+    color: #1f2937;
     align-self: flex-end;
-    font-weight: 800;
-    font-size: 1.3rem;
+    padding-right: 2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
