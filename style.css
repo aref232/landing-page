@@ -193,12 +193,6 @@ section.quote{
     gap: 1em;
 }
 
-/* .text {
-    display: flex;
-    flex-direction: column;
-    gap: .5em;
-} */
-
 .text .headline{
     color: #eff0ee;
     font-weight: 550;
@@ -213,4 +207,14 @@ section.quote{
 .container button{
     border: solid;
     padding: 0.7em 1.3em;
+}
+
+footer{
+    min-height: 12vh;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 300;
 }
