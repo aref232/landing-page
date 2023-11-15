@@ -171,3 +171,46 @@ section.quote{
     font-weight: 700;
     font-size: 1.2rem;
 }
+
+.action{
+    height: 40vh;
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .container{
+    background-color: #3882f6;
+    width: 75%;
+    min-height: 32%;
+    padding: 1.5em;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+/* .text {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+} */
+
+.text .headline{
+    color: #eff0ee;
+    font-weight: 550;
+    margin-bottom: .2em;
+}
+
+.text .details{
+    color: #dedfe1;
+    font-size: .8rem;
+}
+
+.container button{
+    border: solid;
+    padding: 0.7em 1.3em;
+}
