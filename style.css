@@ -16,7 +16,7 @@ header {
     align-items: center;
     margin-bottom: 4em;
     gap: 1rem;
-    padding: 1em 3em;
+    padding: 1em 10%;
     /* border: solid red; */
     /* height: 8vh; */
 }
@@ -24,18 +24,23 @@ header {
 .logo{
     color: #f9faf8;
     font-size: 1.4rem;
+    /* font-size: 5vw; */
     font-weight: 800;
+    flex: 0 10 auto;
     /* padding-left: 24px; */
 }
 
 nav{
     display: flex;
+    justify-content: space-around;
     gap: 1.9rem;
-    /* padding-right: 24px; */
+    /* padding-right: 3em; */
+    /* text-wrap: nowrap; */
 }
 
 a{
     text-decoration: none;
+    text-wrap: nowrap;
     color: #e5e7eb;
 }
 
